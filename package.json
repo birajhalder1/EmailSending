@@ -1,0 +1,19 @@
+{
+  "name": "massegesending",
+  "version": "1.0.0",
+  "description": "A simple email sending application ",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "SET NODE_ENV=production & node server"
+  },
+  "author": "Biraj Halder",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.11"
+  }
+}
